@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+}
+
+
+.bg {
+  position: relative  ;
+  margin-top: auto;
+  width: 100%;
+  height:90vh;
+  background: url('wp2621389-wallpaper-1080p.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.bg #text {
+
+  position: relative;
+  font-size: 120px;
+  color: #fff;
+  opacity: 0.6;
+}
+.bg .fog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+.bg .fog img {
+
+    margin-top: 10px;
+
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  height: 300px;
+
+
+  max-height: 50%;
+  animation: fog_effect calc(3s * var(--i)) ease-in infinite;
+}
+@keyframes fog_effect {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  25%,
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+div .btns{
+    position: absolute;
+    display: flex;
+    left: o;
+    bottom: 10px;
+}
+
+div .newfun{
+    border: none;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border-radius:10%;
+    color: black;
+    cursor: none;
+    text-transform: uppercase;
+}
+div .newfun:hover{
+    background-color: black;
+    color: #fff;
+
+    
+}
+
+
+
+.introage{
+    margin-top: 10px;
+    background-color:black ;
+    margin-bottom: 20px;
+    
+}
+
+.card-img-top{
+  height: 250px;
+}
+
+.cards{
+    gap: 0;
+    width: 100%;
+    border-radius: 2px;
+    margin-left: 50px;
+  
+
+}
+
+.card-w{
+  margin: 10px 5px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  box-shadow: rgba(249, 249, 251, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+
+
+.footer{
+  margin-top: 10px;
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  flex: 1;
+  margin-bottom: 10px;
+
+}
+
+.page-foot ul {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  text-align: left;
+  margin-right: 10px;
+  
+}
+
+.page-foot ul li{
+  margin-top: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.page-foot ul :hover{
+
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.carousel-item{
+ 
+}
+
+.carousel-item img{
+
+  width: 100%;
+  height: 200px;
+
+}
+
+.Sider{
+  height: 400px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.carousel-item img{
+  height: 400px;
+  width: 80%;
+}
+
+.carousel-indicators{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  bottom: 20px;
+}
+
+.slide-btn{
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+}
+
+.carousel-indicators{
+  top: 405px;
+
+}
+
+.carousel-control-prev{
+  margin-top: 200px;
+}
+
+.carousel-control-next{
+  margin-top: 200px;
+}
+
+.carousel-item img{
+
+  width: 100%;
+  height: 400px;
+
+}
+
+.Sider{
+  margin-top: 1px;
+}
+
+
+
+@media screen and (max-width: 420px) {
+
+  .footer .foot-xs{
+
+    display:none ;
+    background-color: antiquewhite;
+
+
+
+  }
+
+
+ 
+}
+
